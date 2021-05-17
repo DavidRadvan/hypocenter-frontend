@@ -1,0 +1,18 @@
+.navbarApp {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainGroup {
+  display: flex;
+  flex-direction: row;
+}
+
+.rightNavGroup {
+  display: flex;
+  flex-direction: row;
+}
+
+#welcome {
+  cursor: default;
+}

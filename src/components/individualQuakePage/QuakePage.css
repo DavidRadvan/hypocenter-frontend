@@ -1,0 +1,33 @@
+.quakeTitle {
+  color: white;
+}
+
+.quakepageController {
+  padding-top: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.eqInfo {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  font-weight: bold;
+  font-family: "Oxygen";
+  justify-content: space-around;
+}
+ul.noPaddingTop,
+li.noPaddingTop {
+  padding-top: 0;
+}
+
+.quakeInfo {
+  border-bottom: 1px solid white;
+}
+
+.backToHome {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+}

@@ -1,0 +1,48 @@
+/* Color Variables */
+
+:root {
+  --text: rgba(0, 0, 0, 0.349);
+  --btnText: #f2f2f2;
+  --btnBackground: #a1a2ac;
+  --active: #d9bb29;
+  --inactive: #cbcdd8;
+  --background: #f2f2f2;
+  --secondary: #f2f2f2;
+}
+
+/* TOGGLE BUTTON */
+.toggle-container {
+  position: fixed;
+  top: 10%;
+  right: 10%;
+  transform: translate(-50%, -50%);
+}
+
+.toggle-btn {
+  display: container;
+  justify-content: space-between;
+  border: none;
+  border-radius: 100px;
+  box-shadow: 2 0px 0px 2 rgba(245, 241, 241, 0.2);
+}
+
+.icon {
+  font-size: 2.2rem;
+  padding: 0rem 0rem;
+  color: var(--inactive);
+}
+
+.toggle-btn:hover {
+  box-shadow: 1 0px 0px 1 rgb(245, 239, 239);
+}
+
+.active {
+  color: #d99b29;
+}
+
+@media (max-width: 400px) {
+  .toggle-container {
+    top: 0%;
+    right: 50%;
+  }
+}
