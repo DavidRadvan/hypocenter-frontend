@@ -86,6 +86,7 @@ export default function Globe(props) {
     markerRadiusScaleRange: [0.005, 0.009],
     markerGlowRadiusScale: 0,
     enableCameraRotate: startSite,
+    globeGlowPower: 4.5,
   };
 
   // http://www.planetaryvisions.com/libsamples/4104_1.jpg
