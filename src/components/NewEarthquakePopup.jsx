@@ -63,6 +63,7 @@ export default function NewEarthquakePopup(props) {
 
   return (
     <div className={classes.root}>
+      <Alert />
       {popups}
     </div>
   );
