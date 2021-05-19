@@ -45,7 +45,7 @@ export default function NewEarthquakePopup(props) {
         setEqPopup((prev) => {
           return { ...prev, new: false, earthquakes: [] };
         });
-      }, 4000);
+      }, 6000);
     }
   }, [eqPopup.new]);
 
